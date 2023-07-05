@@ -1,0 +1,31 @@
+@use 'normalize.css/normalize.css' as *;
+@use 'tailwind' as *;
+@import 'ngx-toastr/toastr';
+
+@layer base {
+  html {
+    font-family: 'Open Sans', system-ui, sans-serif;
+
+    font-size: 100%;
+
+    overflow-x: hidden;
+    height: 100%;
+  }
+
+  body {
+    position: relative;
+    
+    overflow-x: hidden;
+    height: 100%;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+  }
+  
+  a {
+    color: inherit; 
+    text-decoration: inherit; 
+  }
+}
