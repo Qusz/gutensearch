@@ -20,6 +20,7 @@ import { SearchComponent } from './components/search/search.component';
 import { appInitializerProvider  } from './app-initializer';
 
 import { ToastrModule } from 'ngx-toastr';
+import { ResultsComponent } from './components/results/results.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ToastrModule } from 'ngx-toastr';
     MainPageComponent,
     DownloadPageComponent,
     SpinnerComponent,
-    SearchComponent
+    SearchComponent,
+    ResultsComponent
   ],
   imports: [
     BrowserModule,
