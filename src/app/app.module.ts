@@ -9,6 +9,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { NavbarItemComponent } from './components/navbar/navbar-item/navbar-item.component';
 import { MainPageComponent } from './components/pages/main-page/main-page.component';
+import { DownloadPageComponent } from './components/pages/download-page/download-page.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MainPageComponent } from './components/pages/main-page/main-page.compon
     FooterComponent,
     NavbarComponent,
     NavbarItemComponent,
-    MainPageComponent
+    MainPageComponent,
+    DownloadPageComponent
   ],
   imports: [
     BrowserModule,

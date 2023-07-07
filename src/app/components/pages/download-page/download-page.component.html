@@ -1,0 +1,15 @@
+<div class="download-page">
+  <app-default-layout>
+    <div *ngIf="(getDataService.searchResults$ | async) as searchData">
+      <h1 class="mt-4 text-3xl font-bold text-center">
+        {{ searchData.results[index].title }}
+      </h1>
+      <ul class="mt-6">
+        <li *ngFor="let entry of searchData.results[index].formats | keyvalue">
+          <span class="font-semibold text-lg">{{ entry.key }}: </span>
+          <a class="link link-primary" target="_blank" [href]="entry.value">{{ entry.value }}</a>
+        </li>
+      </ul>
+    </div>
+  </app-default-layout>
+</div>
