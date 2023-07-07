@@ -21,7 +21,7 @@ Gutensearch is a book search and download page powered by the Gutendex API. It a
 ## Project Structure
 The project follows the standard Angular project structure. Here's an overview of the main directories:
 
-`src/app/components` Contains the Angular components used in the application.
-`src/app/services` Includes the services used for API communication, data and error handling.
-`src/app/models` Contains the TypeScript interfaces defining the data models used in the application.
-`src/styles` Contains custom styles and the configuration for Tailwind CSS and DaisyUI.
+- `src/app/components` Contains the Angular components used in the application.
+- `src/app/services` Includes the services used for API communication, data and error handling.
+- `src/app/models` Contains the TypeScript interfaces defining the data models used in the application.
+- `src/styles` Contains custom styles and the configuration for Tailwind CSS and DaisyUI.
