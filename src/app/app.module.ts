@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,6 +12,7 @@ import { NavbarItemComponent } from './components/navbar/navbar-item/navbar-item
 import { MainPageComponent } from './components/pages/main-page/main-page.component';
 import { DownloadPageComponent } from './components/pages/download-page/download-page.component';
 import { SpinnerComponent } from './components/spinner/spinner.component';
+import { SearchComponent } from './components/search/search.component';
 
 @NgModule({
   declarations: [
@@ -22,11 +24,13 @@ import { SpinnerComponent } from './components/spinner/spinner.component';
     NavbarItemComponent,
     MainPageComponent,
     DownloadPageComponent,
-    SpinnerComponent
+    SpinnerComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
