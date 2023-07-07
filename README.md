@@ -1,5 +1,5 @@
 # Gutensearch
-Gutensearch is a book search and download page powered by the Gutendex API. It allows users to search for books and download them in various formats. The project is built using Angular and utilizes the Tailwind CSS framework with DaisyUI for styling.
+Gutensearch is a book search and download page powered by the (Gutendex API)[https://gutendex.com/]. It allows users to search for books and download them in various formats. The project is built using Angular and utilizes the Tailwind CSS framework with DaisyUI for styling.
 
 ## Features
 - Book search functionality using the Gutendex API
