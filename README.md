@@ -25,3 +25,7 @@ The project follows the standard Angular project structure. Here's an overview o
 - `src/app/services` Includes the services used for API communication, data and error handling.
 - `src/app/models` Contains the TypeScript interfaces defining the data models used in the application.
 - `src/styles` Contains custom styles and the configuration for Tailwind CSS and DaisyUI.
+
+## Live preview
+
+https://gutensearch.vercel.app/
