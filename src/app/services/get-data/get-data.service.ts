@@ -1,4 +1,4 @@
-import { ApiResponse } from '@/models';
+import { ApiResponse } from '@/app/models';
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpParams, HttpErrorResponse } from '@angular/common/http';
 import { BehaviorSubject } from 'rxjs';
