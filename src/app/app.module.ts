@@ -14,6 +14,8 @@ import { DownloadPageComponent } from './components/pages/download-page/download
 import { SpinnerComponent } from './components/spinner/spinner.component';
 import { SearchComponent } from './components/search/search.component';
 
+import { ToastrModule } from 'ngx-toastr';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +32,8 @@ import { SearchComponent } from './components/search/search.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    ToastrModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
