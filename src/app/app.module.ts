@@ -7,6 +7,7 @@ import { DefaultLayoutComponent } from './components/default-layout/default-layo
 import { LogoComponent } from './components/logo/logo.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { NavbarItemComponent } from './components/navbar/navbar-item/navbar-item.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     DefaultLayoutComponent,
     LogoComponent,
     FooterComponent,
-    NavbarComponent
+    NavbarComponent,
+    NavbarItemComponent
   ],
   imports: [
     BrowserModule,
