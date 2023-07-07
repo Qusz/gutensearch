@@ -10,6 +10,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { NavbarItemComponent } from './components/navbar/navbar-item/navbar-item.component';
 import { MainPageComponent } from './components/pages/main-page/main-page.component';
 import { DownloadPageComponent } from './components/pages/download-page/download-page.component';
+import { SpinnerComponent } from './components/spinner/spinner.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { DownloadPageComponent } from './components/pages/download-page/download
     NavbarComponent,
     NavbarItemComponent,
     MainPageComponent,
-    DownloadPageComponent
+    DownloadPageComponent,
+    SpinnerComponent
   ],
   imports: [
     BrowserModule,
